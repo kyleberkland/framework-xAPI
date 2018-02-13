@@ -1,0 +1,57 @@
+{
+    "_defaultLanguage": "en",
+    "_defaultDirection": "ltr",
+    "_questionWeight": 1,
+    "_logging": {
+        "_isEnabled": true,
+        "_level": "debug",
+        "_console": true
+    },
+    "_accessibility": {
+        "_isEnabled": true,
+        "_isEnabledOnTouchDevices": false,
+        "_shouldSupportLegacyBrowsers": true,
+        "_isTextProcessorEnabled": true,
+        "_isSkipNavigationEnabled": true
+    },
+    "_id": "YOURID",
+      "_xapi": {
+        "_coreEvents": {
+          "components": {
+            "change:_isComplete": true
+          },
+          "blocks": {
+            "change:_isComplete": true
+          },
+          "articles": {
+            "change:_isComplete": true
+          },
+          "contentobjects": {
+            "change:_isComplete": true
+          },
+          "Adapt": {
+            "assessments:complete": true,
+            "questionView:recordInteraction": true,
+            "router:page": true,
+            "router:menu": true
+          }
+        },
+        "_shouldTrackState": true, 
+        "_generateIds": false,
+        "_lang": "en-US",
+        "_password": "YOURPassword",
+        "_user": "YOURUser",
+        "_endpoint": "YOUREndPoint", 
+        "_activityID": "http://test/8246",
+        "_specification": "xAPI",
+        "_isEnabled": true
+    },
+    "_drawer": {
+        "_showEasing": "easeOutQuart",
+        "_hideEasing": "easeInQuart",
+        "_duration": 400
+    },
+    "_disableAnimationFor": [".ie8", ".iPhone.version-7\\.0"],
+    "build": {
+    }
+}
